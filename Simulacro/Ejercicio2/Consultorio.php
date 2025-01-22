@@ -4,8 +4,8 @@
 
         $suma = 0;
 
-        for ($i = 0; $i < strlen($num1); $i++) {
-            $digito = (int)$num1[$i];
+        for ($i = 0; $i < strlen($num1); $i++) { //strlen() obtiene la longitud del numero
+            $digito = $num1[$i]; //el carácter en la posición $i de $num1 se asigna a $digito
             if ($checkbox == TRUE) {
 
                 if ($digito % 2 !== 0) {
