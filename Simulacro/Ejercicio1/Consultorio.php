@@ -4,7 +4,7 @@
 
     $checkbox = isset($_POST['checkbox']);
 
-    if ($checkbox == FALSE) {
+    if ($checkbox == TRUE) {
         $cantidad1 = strlen((string) abs($num1)); //para obtener el valor absoluto de $num1. Esto asegura que el número sea positivo, eliminando cualquier signo negativo.
         echo $cantidad1;
     }else{
